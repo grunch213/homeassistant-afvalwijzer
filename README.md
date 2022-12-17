@@ -129,8 +129,8 @@ Here's an example of my own Home Asisstant config: https://github.com/xirixiz/ho
   sensor:
     - platform: afvalwijzer
       provider: mijnafvalwijzer        # (required, default = mijnafvalwijzer) either choose mijnafvalwijzer, afvalstoffendienstkalender or rova
-      postal_code: 1234AB              # (required, default = '')
-      street_number:  5                # (required, default = '')
+      postal_code: 6931XC              # (required, default = '')
+      street_number:  32                # (required, default = '')
       suffix: ''                       # (optional, default = '')
       exclude_pickup_today: true       # (optional, default = true) to take or not to take Today into account in the next pickup.
       default_label: Geen              # (optional, default = Geen) label if no date found
